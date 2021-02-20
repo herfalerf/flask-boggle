@@ -1,0 +1,53 @@
+.html_board {
+    border: solid 2px black;
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html_board td {
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    border: solid 2px black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    color:rgb(26,43,60);
+}
+
+body {
+    background-color: BurlyWood;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.messages {
+    font-weight: bold;
+
+}
+
+#input_guess {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: Bold;
+    background-color: antiquewhite;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: gray;
+}
+
+.words {
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block board %}
+<h1>Boggle</h1>
+<h2 id="score_board">Score Board</h2>
+<h2 id="time_remaining">Time Remaining</h2>
+
+<table class="html_board">
+  {% for row in session['game_board'] %}
+  <tr>
+    {% for letter in row %}
+    <td>{{ letter }}</td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
+<h2>Submit a guess</h2>
+<form method="GET" class="guess_form">
+  <input type="text" placeholder="enter guess" id="input_guess" />
+  <button>Submit</button>
+</form>
+<div class="messages"></div>
+<ul class="words">
+  Correct Words
+</ul>
+
+{% endblock %}
